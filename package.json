@@ -1,0 +1,20 @@
+{
+  "name": "bitfinex-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "DEBUG=bfx:client node src/client.js",
+    "client:debug": "DEBUG=bfx:* node src/client.js",
+    "prettier": "prettier --config ./.prettierrc.json --loglevel warn --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satishkumar Sharma",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "grenache-nodejs-http": "^0.7.12",
+    "grenache-nodejs-link": "^0.7.12",
+    "node": "^19.0.0",
+    "prettier": "^2.7.1"
+  }
+}
